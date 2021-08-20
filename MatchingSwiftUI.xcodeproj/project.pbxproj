@@ -16,6 +16,7 @@
 		7CDB17FA26C7C6F100BD0D59 /* BottomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB17F926C7C6F100BD0D59 /* BottomButtonModifier.swift */; };
 		7CDB17FE26C7C71200BD0D59 /* VIew-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB17FD26C7C71200BD0D59 /* VIew-Extension.swift */; };
 		7CDB180126C7C72F00BD0D59 /* Image-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB180026C7C72F00BD0D59 /* Image-Extension.swift */; };
+		7CEF155726CFC6130011DEB4 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF155626CFC6130011DEB4 /* CardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7CDB17F926C7C6F100BD0D59 /* BottomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonModifier.swift; sourceTree = "<group>"; };
 		7CDB17FD26C7C71200BD0D59 /* VIew-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VIew-Extension.swift"; sourceTree = "<group>"; };
 		7CDB180026C7C72F00BD0D59 /* Image-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Extension.swift"; sourceTree = "<group>"; };
+		7CEF155626CFC6130011DEB4 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		7C74EF3226C782AE00455477 /* MatchingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7CEF155526CFC6040011DEB4 /* ViewModel */,
 				7CDB17F626C7C6C500BD0D59 /* Util */,
 				7C3022FD26C7C2B600C2899D /* Views */,
 				7C74EF3326C782AE00455477 /* MatchingSwiftUIApp.swift */,
@@ -114,6 +117,14 @@
 				7CDB17F926C7C6F100BD0D59 /* BottomButtonModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		7CEF155526CFC6040011DEB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF155626CFC6130011DEB4 /* CardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 				7C74EF3626C782AE00455477 /* HomeView.swift in Sources */,
 				7C74EF3426C782AE00455477 /* MatchingSwiftUIApp.swift in Sources */,
 				7CDB17F426C7C45300BD0D59 /* BottomControlView.swift in Sources */,
+				7CEF155726CFC6130011DEB4 /* CardViewModel.swift in Sources */,
 				7CDB17FE26C7C71200BD0D59 /* VIew-Extension.swift in Sources */,
 				7CDB180126C7C72F00BD0D59 /* Image-Extension.swift in Sources */,
 				7CDB17FA26C7C6F100BD0D59 /* BottomButtonModifier.swift in Sources */,
